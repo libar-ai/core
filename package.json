@@ -1,0 +1,40 @@
+{
+  "name": "@libar/core",
+  "version": "0.1.0",
+  "description": "Core types and utilities for Libar libraries",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "libar",
+    "core",
+    "types",
+    "utilities"
+  ],
+  "author": "Libar AI",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libar-ai/core.git"
+  },
+  "bugs": "https://github.com/libar-ai/core/issues",
+  "homepage": "https://github.com/libar-ai/core",
+  "publishConfig": {
+    "access": "public"
+  }
+}
